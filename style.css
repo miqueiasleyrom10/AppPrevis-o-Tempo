@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: "Poppins", serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://picsum.photos/1920/1089?random=1 ");
+    background-size: cover;
+    background-repeat: none;
+    color: #fff;
+}
+
+.bigger-box {
+    background-color: #000;
+    opacity: 0.8;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.85);
+    width: 450px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 60px);
+    font-size: 1.25em;
+    color: #ccc;
+}
+
+.botao-busca {
+    border: none;
+    background-color: #7c7c7c2b;
+    float: right;
+    align-items: center;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao-busca:hover {
+    background-color: #7c7c7c;
+}
+
+.botao-busca:active {
+    background-color: #7c7c7c2b;
+    opacity: 0.8;
+}
+
+.img-busca {
+    width: 35px;
+}
+
+.medium-box {
+    margin-top: 20px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.7em;
+    color: #fff;
+}
+
+.small-box {
+    margin-top: 20px;
+}
+
+.icon-pre:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.icon-pre:not(:hover) {
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+.temp {
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    color: #ddd;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+p:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+h2:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.humidity {
+    margin-top: 20px;
+}
